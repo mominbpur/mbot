@@ -9,7 +9,7 @@ load_dotenv()
 api_key = os.getenv("GEMINI_API_KEY")
 
 st.set_page_config(page_title="M.BOT <Ask anything...> ", page_icon="🤖")
-st.title("🤖 M.BOT")
+st.title("🤖 M.BOT by AMK ")
 
 # api key check
 if not api_key:
