@@ -8,8 +8,8 @@ from google.genai import types
 load_dotenv()
 api_key = os.getenv("GEMINI_API_KEY")
 
-st.set_page_config(page_title="Custom AI", page_icon="🤖")
-st.title("🤖 Custom AI")
+st.set_page_config(page_title="M.BOT <Ask anything...> ", page_icon="🤖")
+st.title("🤖 M.BOT")
 
 # api key check
 if not api_key:
